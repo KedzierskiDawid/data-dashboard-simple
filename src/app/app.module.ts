@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderModule } from './header/header.module';
 import { SidebarModule } from './sidebar/sidebar.module';
 import { ContainerModule } from './container/container.module';
+import { DashboardModule } from './dashboard/dashboard.module';
+import { NotFoundModule } from './not-found/not-found.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { ContainerModule } from './container/container.module';
     HeaderModule,
     SidebarModule,
     ContainerModule,
+    DashboardModule,
+    NotFoundModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
